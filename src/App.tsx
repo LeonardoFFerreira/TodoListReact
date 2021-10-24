@@ -1,9 +1,11 @@
 import * as C from './App.styles';
 
 const App = () => {
-  return(
+  return (
     <C.Container>
-      ...
+      <C.Area>
+        ...
+      </C.Area>
     </C.Container>
   );
 }
