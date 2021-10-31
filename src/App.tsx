@@ -2,6 +2,7 @@ import { useState } from 'react';
 import * as C from './App.styles';
 import { Item } from './types/Item';
 import { InputItem } from './components/input-item';
+import { AddArea } from './components/add-area';
 
 const App = () => {
   const [list, setList] = useState<Item[]>([
